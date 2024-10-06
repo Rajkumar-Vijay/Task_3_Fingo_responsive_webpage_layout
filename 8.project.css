@@ -1,0 +1,267 @@
+body {
+  margin: 0px 50px 0px 160px;
+  background-color: #fefcfb;
+  flex-wrap: wrap;
+}
+section {
+  height: 100vh;
+}
+.home {
+  height: 1000px;
+}
+.about {
+  background-color: #f7f8fc;
+}
+section + :hover {
+  border: 2px solid skyblue;
+}
+.header {
+  display: flex;
+  height: 112px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_link {
+  display: flex;
+  gap: 10px;
+}
+.header_link > img {
+  width: 19px;
+  object-fit: contain;
+}
+.navigation > a {
+  text-decoration: none;
+  color: inherit;
+  margin: 16px;
+  /* gap: 80px; */
+}
+.btn {
+  width: 160px;
+  height: 50px;
+  background-color: #fa7436;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro {
+  width: 40%;
+}
+.intro > h1 {
+  font-size: 64px;
+}
+
+.about_main > h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.about_main > p {
+  display: flex;
+  justify-content: center;
+}
+.about_cards {
+  display: flex;
+  gap: 20px;
+}
+.thing_card {
+  width: 370px;
+  height: 278px;
+  background-color: white;
+  /* box-shadow: 1px 1px 3px 0.6; */
+  padding: 16px;
+}
+.Destination_main > h2 {
+  font-size: 48px;
+  justify-content: center;
+}
+.Destination_main > p {
+  display: flex;
+  justify-content: center;
+}
+.Destination_content {
+  display: flex;
+  justify-content: space-between;
+}
+.place_details {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  justify-content: space-between;
+  padding: 12px;
+}
+.place_details > h3 {
+  margin: 0;
+}
+.place_bottom_details {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  color: #666666;
+}
+.old_price {
+  text-decoration: line-through;
+}
+.new_price {
+  color: #fa7436;
+  background-color: #ffe7db;
+}
+.vacation_head > h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
+.vacation_head > p {
+  display: flex;
+  justify-content: center;
+}
+.vacation_content {
+  display: flex;
+  justify-content: center;
+}
+.vacation_image_content {
+  width: 369;
+  height: 327;
+  padding: 20px;
+}
+.place_details > span {
+  color: #fa7436;
+  font-size: 24px;
+}
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+.blog_head h1 {
+  font-size: 48px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 400px;
+  margin: 16px;
+}
+.blog_head_content p {
+  display: block;
+  justify-content: center;
+  padding: 10px;
+  width: 50%;
+  color: #666666;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.blog_comment {
+  display: block;
+  margin: 0px;
+  position: relative;
+  justify-content: left;
+  height: 128px;
+  width: 340px;
+  top: 0px;
+  left: 60px;
+}
+.blog_comment p {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+.blog_page_button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 20px;
+  color: #666666;
+}
+.blog_page_button + :hover {
+  background-color: #fa7436;
+}
+
+.user_location {
+  color: #666666;
+  display: flex;
+  justify-content: flex-start;
+}
+.blog_pages {
+  justify-content: flex-start;
+  display: flex;
+}
+.plan {
+  display: flex;
+  font-size: 48px;
+  justify-content: center;
+}
+.plan_images {
+  display: flex;
+  justify-content: center;
+}
+.plan_image {
+  width: 270px;
+  height: 388px;
+  font-size: 18px;
+  padding: 10px;
+}
+.plan_date {
+  color: #666666;
+}
+.footer {
+  width: 100%;
+  height: 50%;
+  background-color: #fa7436;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.main_footer > h2 {
+  margin: 0px;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+.main_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.input {
+  border: none;
+  height: 50px;
+  width: 50%;
+  left: 100px;
+}
+.footer2 {
+  display: flex;
+  justify-content: space-around;
+}
+.footer_icons {
+  color: #666666;
+  padding: 10px;
+  border-radius: 50%;
+}
+.footer_icons + :hover {
+  background-color: #fa7436;
+}
+.footer_list {
+  list-style-type: none;
+  text-decoration: none;
+  color: #666666;
+}
+.footer_list {
+  padding: 0px;
+  margin: 0px;
+}
